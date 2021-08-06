@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://discordbotgeneratoruser:keeuP9ZqJ69T1VVO@cluster0.5hegy.mongodb.net/trainz?retryWrites=true&w=majority
+      database: trainz
+server:
+  port: 8080

@@ -1,0 +1,1 @@
+web: java -jar ./build/libs/trainzBackend*.jar --server.port=$PORT
