@@ -4,6 +4,7 @@ data class Exercise (
     val title: ExerciseTitle,
     val variation: ExerciseVariation?,
     val repetitions: Int,
+    val mass: Int,
     val restTime: Int,
     val additionalInformation: String,
     val resultConfidence: ExerciseResultCondifence,
