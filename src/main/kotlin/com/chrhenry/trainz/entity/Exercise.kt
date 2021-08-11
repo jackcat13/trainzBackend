@@ -1,4 +1,4 @@
-package com.chrhenry.discordBotGenerator.entity
+package com.chrhenry.trainz.entity
 
 data class Exercise (
     val title: ExerciseTitle,
@@ -7,7 +7,7 @@ data class Exercise (
     val repetitions: Int,
     val mass: Int,
     val restTime: Int,
-    val additionalInformation: String,
+    val additionalInformation: String = "",
     val resultConfidence: ExerciseResultCondifence,
-    val resultComments: String
+    val resultComments: String = ""
 )

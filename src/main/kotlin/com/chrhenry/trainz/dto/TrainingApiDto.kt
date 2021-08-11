@@ -1,4 +1,4 @@
-package com.chrhenry.discordBotGenerator.dto
+package com.chrhenry.trainz.dto
 
 import java.time.LocalDateTime
 

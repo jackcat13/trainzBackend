@@ -1,7 +1,7 @@
-package com.chrhenry.discordBotGenerator.repository
+package com.chrhenry.trainz.repository
 
-import com.chrhenry.discordBotGenerator.entity.Training
-import com.chrhenry.discordBotGenerator.entity.User
+import com.chrhenry.trainz.entity.Training
+import com.chrhenry.trainz.entity.User
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository
 import reactor.core.publisher.Flux
 

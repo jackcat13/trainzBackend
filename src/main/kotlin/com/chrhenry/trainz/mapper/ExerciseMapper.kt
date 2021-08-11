@@ -1,7 +1,7 @@
-package com.chrhenry.discordBotGenerator.mapper
+package com.chrhenry.trainz.mapper
 
-import com.chrhenry.discordBotGenerator.dto.ExerciseApiDto
-import com.chrhenry.discordBotGenerator.entity.Exercise
+import com.chrhenry.trainz.dto.ExerciseApiDto
+import com.chrhenry.trainz.entity.Exercise
 
 fun Exercise.map() = ExerciseApiDto(title, variation, series, repetitions, mass, restTime, additionalInformation, resultConfidence, resultComments)
 

@@ -3,5 +3,8 @@ spring:
     mongodb:
       uri: mongodb+srv://discordbotgeneratoruser:keeuP9ZqJ69T1VVO@cluster0.5hegy.mongodb.net/trainz?retryWrites=true&w=majority
       database: trainz
+  jackson:
+    deserialization:
+      ACCEPT_EMPTY_STRING_AS_NULL_OBJECT: true
 server:
   port: 8080

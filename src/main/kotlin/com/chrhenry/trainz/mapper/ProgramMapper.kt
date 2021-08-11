@@ -1,7 +1,7 @@
-package com.chrhenry.discordBotGenerator.mapper
+package com.chrhenry.trainz.mapper
 
-import com.chrhenry.discordBotGenerator.dto.ProgramApiDto
-import com.chrhenry.discordBotGenerator.entity.Program
+import com.chrhenry.trainz.dto.ProgramApiDto
+import com.chrhenry.trainz.entity.Program
 
 fun Program.map() = ProgramApiDto(type, repetition, exercises.map{ it.map() }.toSet() )
 

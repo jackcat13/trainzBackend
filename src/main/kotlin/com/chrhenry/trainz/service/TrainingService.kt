@@ -1,8 +1,8 @@
-package com.chrhenry.discordBotGenerator.service
+package com.chrhenry.trainz.service
 
-import com.chrhenry.discordBotGenerator.entity.Training
-import com.chrhenry.discordBotGenerator.entity.User
-import com.chrhenry.discordBotGenerator.repository.TrainingRepository
+import com.chrhenry.trainz.entity.Training
+import com.chrhenry.trainz.entity.User
+import com.chrhenry.trainz.repository.TrainingRepository
 import org.springframework.stereotype.Service
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono

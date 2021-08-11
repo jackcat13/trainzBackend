@@ -1,6 +1,6 @@
-package com.chrhenry.discordBotGenerator.dto
+package com.chrhenry.trainz.dto
 
-import com.chrhenry.discordBotGenerator.entity.ProgramType
+import com.chrhenry.trainz.entity.ProgramType
 
 data class ProgramApiDto(
     val type: ProgramType,

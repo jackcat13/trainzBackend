@@ -1,8 +1,7 @@
-package com.chrhenry.discordBotGenerator.mapper
+package com.chrhenry.trainz.mapper
 
-import com.chrhenry.discordBotGenerator.dto.TrainingApiDto
-import com.chrhenry.discordBotGenerator.entity.Training
-import com.chrhenry.discordBotGenerator.entity.Program
+import com.chrhenry.trainz.dto.TrainingApiDto
+import com.chrhenry.trainz.entity.Training
 import org.bson.types.ObjectId
 
 fun Training.map() = TrainingApiDto(_id.toString(), title, date, user.map(), program.map())

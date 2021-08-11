@@ -1,4 +1,4 @@
-package com.chrhenry.discordBotGenerator
+package com.chrhenry.trainz
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

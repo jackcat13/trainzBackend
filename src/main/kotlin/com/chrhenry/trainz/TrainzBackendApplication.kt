@@ -1,4 +1,4 @@
-package com.chrhenry.discordBotGenerator
+package com.chrhenry.trainz
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

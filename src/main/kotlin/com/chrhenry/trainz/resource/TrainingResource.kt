@@ -1,9 +1,9 @@
-package com.chrhenry.discordBotGenerator.resource
+package com.chrhenry.trainz.resource
 
-import com.chrhenry.discordBotGenerator.dto.TrainingApiDto
-import com.chrhenry.discordBotGenerator.entity.Training
-import com.chrhenry.discordBotGenerator.mapper.map
-import com.chrhenry.discordBotGenerator.service.TrainingService
+import com.chrhenry.trainz.dto.TrainingApiDto
+import com.chrhenry.trainz.entity.Training
+import com.chrhenry.trainz.mapper.map
+import com.chrhenry.trainz.service.TrainingService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*

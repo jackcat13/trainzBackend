@@ -1,4 +1,4 @@
-package com.chrhenry.discordBotGenerator.entity
+package com.chrhenry.trainz.entity
 
 import org.bson.types.ObjectId
 import org.springframework.data.annotation.Id

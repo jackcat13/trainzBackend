@@ -1,4 +1,4 @@
-package com.chrhenry.discordBotGenerator.entity
+package com.chrhenry.trainz.entity
 
 data class Program(
         val type: ProgramType,
