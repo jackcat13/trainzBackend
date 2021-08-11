@@ -7,6 +7,7 @@ import com.chrhenry.discordBotGenerator.entity.ExerciseVariation
 data class ExerciseApiDto (
     val title: ExerciseTitle,
     val variation: ExerciseVariation?,
+    val series: Int,
     val repetitions: Int,
     val mass: Int,
     val restTime: Int,
