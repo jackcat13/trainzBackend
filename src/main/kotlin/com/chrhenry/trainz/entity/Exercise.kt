@@ -9,5 +9,6 @@ data class Exercise (
     val restTime: Int,
     val additionalInformation: String = "",
     val resultConfidence: ExerciseResultCondifence,
-    val resultComments: String = ""
+    val resultComments: String = "",
+    val order: Int
 )
