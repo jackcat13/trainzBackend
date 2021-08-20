@@ -18,6 +18,7 @@ enum class ExerciseTitle {
     HANDSTAND_PRESS,
     PUSH_UPS,
     SIDE_PUSH_UPS,
+    PIKE_PUSH_UPS,
     DIPS,
     SQUATS,
     PISTOL_SQUATS,
